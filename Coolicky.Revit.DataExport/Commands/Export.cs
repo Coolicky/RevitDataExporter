@@ -80,6 +80,7 @@ namespace Coolicky.Revit.DataExport.Commands
             ModelName = element.GetModelName();
             Id = element.Id.IntegerValue;
             Guid = element.UniqueId;
+            Category = element.Category.Name;
             Properties = new Dictionary<string, object>();
             GetClassProperties();
             GetParameters();
@@ -141,6 +142,7 @@ namespace Coolicky.Revit.DataExport.Commands
         public string ModelName { get; }
         public int Id { get; }
         public string Guid { get; }
+        public string Category { get; }
         public Dictionary<string, object> Properties { get; }
     }
 }
