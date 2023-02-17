@@ -1,9 +1,9 @@
 <RevitAddIns>
     <AddIn Type="Application">
         <Name>RevitDataExporter</Name>
-        <Assembly>Coolicky.RevitDataExporter.dll</Assembly>
+        <Assembly>Coolicky.Revit.DataExport.dll</Assembly>
         <AddInId>621756E7-F550-4385-B581-10EA87E49F70</AddInId>
-        <FullClassName>Coolicky.RevitDataExporter.App</FullClassName>
+        <FullClassName>Coolicky.Revit.DataExport.App</FullClassName>
         <VendorId>Coolicky</VendorId>
         <VendorDescription>Coolicky, https://github.com/Coolicky</VendorDescription>
     </AddIn>

@@ -45,12 +45,22 @@
     <ItemGroup>
       <PackageReference Include="Revit.DependencyInjection.Unity" Version="0.6.5" />
       <PackageReference Include="RevitTask" Version="3.0.0" />
+      <PackageReference Include="System.Text.Json" Version="7.0.2" />
     </ItemGroup>
     <ItemGroup>
       <None Remove="Resources\DataExport16.png" />
       <Resource Include="Resources\DataExport16.png" />
       <None Remove="Resources\DataExport32.png" />
       <Resource Include="Resources\DataExport32.png" />
+      <None Update="Coolicky.Revit.DataExport.addin">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Coolicky.Revit.DataExport.config">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+    </ItemGroup>
+    <ItemGroup>
+      <Reference Include="System.Windows.Forms" />
     </ItemGroup>
 
 </Project>

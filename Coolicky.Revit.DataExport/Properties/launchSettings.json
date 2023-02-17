@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "Coolicky.Revit.DataExport": {
+      "commandName": "Executable",
+      "executablePath": "C:\\Program Files\\Autodesk\\Revit 2020\\Revit.exe",
+      "commandLineArgs": "\"D:\\New folder\\rme_advanced_sample_project.rvt\""
+    }
+  }
+}
